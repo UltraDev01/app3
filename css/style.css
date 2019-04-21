@@ -134,6 +134,11 @@ a:active, a:hover {
   outline: 0 none;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
